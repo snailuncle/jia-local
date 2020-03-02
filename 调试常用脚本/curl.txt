@@ -1,0 +1,3 @@
+curl http://www.baidu.com
+
+curl 127.0.0.1:7001/mysql/select

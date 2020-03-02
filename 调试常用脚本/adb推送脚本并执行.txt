@@ -1,0 +1,4 @@
+adb push F:\myGithub\webpack-autojs\dist\main.js  /sdcard/
+adb shell "am start -n org.autojs.autojs/org.autojs.autojs.external.open.RunIntentActivity -d file:///sdcard/script.js -t application/x-javascript"
+
+
